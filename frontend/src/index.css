@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@keyframes slideFromRight {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes slideFromLeft {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+
+@layer utilities {
+  .slide-from-right {
+    animation: slideFromRight 0.28s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .slide-from-left {
+    animation: slideFromLeft 0.28s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: #000;
+  overscroll-behavior: none;
+}

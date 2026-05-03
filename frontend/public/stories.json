@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "username": "alex_travels",
+    "avatar": "https://i.pravatar.cc/80?img=1",
+    "image": "https://picsum.photos/seed/travel/400/700"
+  },
+  {
+    "id": 2,
+    "username": "sara_eats",
+    "avatar": "https://i.pravatar.cc/80?img=5",
+    "image": "https://picsum.photos/seed/food/400/700"
+  },
+  {
+    "id": 3,
+    "username": "mike_nature",
+    "avatar": "https://i.pravatar.cc/80?img=8",
+    "image": "https://picsum.photos/seed/forest/400/700"
+  },
+  {
+    "id": 4,
+    "username": "emma.art",
+    "avatar": "https://i.pravatar.cc/80?img=10",
+    "image": "https://picsum.photos/seed/gallery/400/700"
+  },
+  {
+    "id": 5,
+    "username": "james_city",
+    "avatar": "https://i.pravatar.cc/80?img=12",
+    "image": "https://picsum.photos/seed/city/400/700"
+  },
+  {
+    "id": 6,
+    "username": "lily.beach",
+    "avatar": "https://i.pravatar.cc/80?img=15",
+    "image": "https://picsum.photos/seed/beach/400/700"
+  },
+  {
+    "id": 7,
+    "username": "noah_sports",
+    "avatar": "https://i.pravatar.cc/80?img=18",
+    "image": "https://picsum.photos/seed/sports/400/700"
+  },
+  {
+    "id": 8,
+    "username": "olivia.pets",
+    "avatar": "https://i.pravatar.cc/80?img=20",
+    "image": "https://picsum.photos/seed/animals/400/700"
+  }
+]
